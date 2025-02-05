@@ -1,0 +1,6 @@
+body{
+    background-color: rgb(164, 99, 99);
+    td{
+      border: 4px rgb(226, 43, 156);
+    }
+  }
