@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <title>CSS Selector</title>
+        <style>
+        /*Element Selector*/ 
+            div{
+                background-color: purple;
+            
+            }
+        /*ID Selector*/
+        #green{
+         background-color: green;   
+        }
+        /*Child Selector*/
+        div > p{
+            color: plum;
+            background-color: aqua;
+        }
+            /*Descendant Selector*/
+            div p{
+            color: rgb(3, 1, 15);
+            background-color: rgb(156, 135, 27);
+            /*Universal Selector*/
+            *{
+                margin:0;
+                padding:0;
+            }
+            /*Pseudo Selector*/
+            a:visited{
+               color: yellow; 
+
+            }
+            a:link{
+                color: black;
+            }
+            a:active{
+                background-color: blueviolet;
+            }
+            p:first-child{
+                background-color: plum;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="green">
+           I am a div.
+           <article> Hey</article>
+           <a href="https://www.google.com/">Go to google site.</a>
+           <a href="https://www.facebook.com/">Go to facebook.</a>
+           <p> I am following descendant property.</p>
+        </div>
+        <main class="one">
+            <p> I am first. </p>
+            <p> I am second. </p>
+            <p> I am third. </p>
+        </main>
+        <div> 
+           <p>Let's keep doing. </p>
+           <p> Consistency is the key.</p>
+        </div>
+        <div>
+            I am also a div.
+        
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sint tenetur at, eius unde quaerat illo eveniet cum, ipsam distinctio quam dicta perspiciatis repudiandae tempore assumenda, sequi labore itaque? Necessitatibus?</p>
+        </div>
+    </body>
+</html>
